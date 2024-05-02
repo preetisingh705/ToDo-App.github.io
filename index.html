@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="todo1.css"> 
+    <link rel="icon" type="image" href="/img/note.png">
+    <title>Add Your Task</title>
+</head>
+<body>
+
+    <div class="app">
+
+        <div class="container">
+            <h3 class="head1">To Do App</h3>
+
+            <div class="head">
+                <h3 class="heading">Let's Plan Your Day&nbsp; <img src="img/note.png " width="50px" height="60px"></h3>
+            </div>
+            <div id="wrapper">
+                <input type="text" placeholder="Add your task">
+                <button id="add-btn">Add</button>
+            </div>
+            <br>
+            <div id="tasks">
+                <ul id="list">
+                </ul>
+                <br>
+                <p id="pending">You have&nbsp;<span class="count-value">0</span>&nbsp;task to complete !</p>
+                
+            </div>
+        </div>
+        <p id="error">Input can't be empty</p>
+    </div>
+    
+    <script src="todo.js"></script>
+</body>
+</html>
